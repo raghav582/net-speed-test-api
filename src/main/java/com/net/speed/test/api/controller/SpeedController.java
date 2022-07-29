@@ -14,7 +14,6 @@ import com.net.speed.test.api.model.ModelResponse;
 import com.net.speed.test.api.service.SpeedService;
 
 @RestController
-@CrossOrigin
 @RequestMapping(path = "v1/speed/")
 public class SpeedController {
 	
